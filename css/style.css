@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #86B817;
+    --primary: #000000;
     --secondary: #FE8800;
     --light: #F5F5F5;
     --dark: #14141F;
@@ -78,7 +78,7 @@
 
 
 /*** Navbar ***/
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link{
     font-family: 'Nunito', sans-serif;
     position: relative;
     margin-right: 25px;
@@ -99,9 +99,14 @@
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary) !important;
 }
+.logo,img{
+    padding: 40px ;
+    text-align: left;
+    max-width:65%;  
+}
 
-.navbar-light .navbar-brand img {
-    max-height:150px;
+.navbar-light{
+    max-height:80px;
     transition: .5s;
 }
 
@@ -172,7 +177,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(78, 78, 95, 0.7), rgba(127, 127, 173, 0.7)), url(../img/allinone.png);
+    background: linear-gradient(rgba(136, 136, 186, 0.7), rgba(136, 136, 187, 0.7)), url(../img/one1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
